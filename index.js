@@ -22,7 +22,7 @@ function theBeatlesPlay(musician, instrument) {
 /* copy/paste the facts
 make new array to store answers
 use a WHILE loop
-use PUSH to add next fact into the array and add the "!!!"
+use PUSH to add next fact from the facts array into the newFacts array and add the "!!!"
 increment by 1
 */
 const facts = [
@@ -58,8 +58,8 @@ function iLoveTheBeatles (num) {
   var array = [];
   
   do {
-    array.push('I love the Beatles!')
-    num++
+    array.push('I love the Beatles!');
+    num++;
   }
   while (num < 15);
 

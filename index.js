@@ -50,9 +50,7 @@ return newFacts;
   make a DO WHILE loop
   add text
   increase num by 1 
-  return the new array until it gets to 15
-  
-
+  return the new array as long as num is less than 15
 */
 function iLoveTheBeatles (num) {
   var array = [];

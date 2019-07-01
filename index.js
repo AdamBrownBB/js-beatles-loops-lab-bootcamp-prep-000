@@ -63,7 +63,6 @@ function iLoveTheBeatles (num) {
   }
   while (num < 15);
 
-  
   return array;
 }
 
